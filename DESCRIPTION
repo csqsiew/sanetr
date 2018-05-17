@@ -1,0 +1,22 @@
+Package: sanetr
+Type: Package
+Title: Spreading Activation in a NETwork in R
+Version: 0.1.0
+Authors@R: person("Cynthia", "Siew", email = "cynsiewsq@gmail.com",
+                  role = c("aut", "cre"))
+Description: A set of functions to simulate the spreading of activation among nodes in a 
+    network.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+  dplyr,
+  igraph,
+  doParallel,
+  foreach,
+  vwr,
+  parallel
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
